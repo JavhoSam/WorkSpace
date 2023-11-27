@@ -1,0 +1,295 @@
+:root {
+    --primary-color: #C97634;
+    --header-bg: #423f41;
+    --button-bg: #c97634;
+    --button-bg-hv: #fa8f39;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.icon {
+    color: white;
+    height: 100%;
+}
+
+.DivContainerRight {
+    width: 80%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(../images/bg4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.DivContainerRight1 {
+    width: 80%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    background-image: url(../images/bg4.jpg);
+    background-size: 100% 12%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+
+}
+
+.DivContainerLeft {
+    background-color: #423F41;
+    width: 20%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.DivContainerTop {
+    width: 100%;
+    height: 12%;
+    position: absolute;
+    top: 0;
+    /*left: 0; */
+    display: flex;
+    flex-direction: rows;
+    justify-content: flex-start;
+    align-items: center; 
+
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 128, 255, 0.5);
+
+}
+
+.UserDivContainer {
+    background-color: #2874A6;
+    width: 100%;
+    height: 12%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Logo {
+    width: 600px;
+    height: 600px;
+}
+
+.UserLogo {
+    width: 25%;
+    height: 85%;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    background-color: #2874A6;
+    color: white;
+    border: none;
+    width: 80%;
+    height: 45px;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.button{
+    margin-top: 40px;
+    padding: 10px 40px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--header-bg);
+    padding-inline: 1rem;
+    height: 4rem;
+}
+
+.button {
+    display: flex;
+    /*border: 2px solid #fff; */
+
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 128, 255, 0.5);
+    padding: 1rem;
+}
+
+.button:hover {
+    background-color:rgba(0, 100, 255, 0.5);
+}
+
+.button1 {
+    align-items: center;
+    display: flex;
+    border: 0.1rem solid transparent;
+    background-color: rgba(0, 128, 255, 0.5);
+
+    padding: 1rem;
+    margin-top: 8px;
+    margin-left: 100px;
+    margin-right: 30px;
+
+    color: white;
+    font-size: 20px;
+    height: 45px;
+    width: 150px;
+}
+
+.button1:hover {
+    background-color: rgba(0, 100, 255, 0.5);
+    cursor: pointer;
+}
+
+
+.button3 {
+    margin-top: 80px;
+    padding: 10px 40px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    display: flex;
+    border: 2px solid #fff; 
+
+
+    background-color: transparent;
+}
+
+.button3:hover {
+    background-color:rgba(0, 100, 255, 0.5);
+}
+
+.busqueda-container {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+    max-width: 80%;
+    margin-top: 8px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.busqueda-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    border-radius: 5px 0 0 5px;
+    height: 45px;
+    padding: 0 10px; /* Agregamos un espaciado interno */
+}
+
+.busqueda-boton {
+    background-color: rgba(0, 128, 255, 0.5);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 0 5px 5px 0;
+    height: 45px;
+    cursor: pointer;
+}
+
+.BotonBusqueda{
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+.controls {
+    /* padding-left: 1rem; */
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    height: 4rem;
+}
+
+/* Estilo CSS para la tabla de productos */
+label2 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #46A2FD;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos generales de la tabla */
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+/* Estilos para las celdas del encabezado y datos */
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+/* Estilos para las celdas del encabezado */
+th {
+    background-color:#686467 ; /* Color de fondo del encabezado */
+  color: white; /* Color del texto del encabezado */
+}
+
+/* Estilos para las filas pares */
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Color de fondo para filas pares */
+}
+
+/* Estilos para las filas impares */
+tr:nth-child(odd) {
+  background-color: #ffffff; /* Color de fondo para filas impares */
+}
+
+/* Estilos para el hover sobre la fila */
+tr:hover {
+  background-color: #f1f1f1; /* Color de fondo al pasar el ratón sobre la fila */
+}
